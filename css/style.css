@@ -198,6 +198,19 @@ border: none;
     padding: 120px 0 ;
    
 }
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+    
+
+}
 .section_2{
     background-color: #f4f4fd;
     padding: 120px 0 ;
