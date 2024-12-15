@@ -279,9 +279,7 @@ padding: 0px 0px 32px 0px;
 width: 264px;
 height: 380px;    
 }
-.port-list {
-    background-color: #FFFFFF;
-}
+
 .icons-list{
 display: flex;
 align-items: center;
@@ -318,6 +316,10 @@ column-gap: 24px;
 row-gap: 48px;
 
 }
+.port-list {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
 .overlay{
     position: relative;
     overflow: hidden;
@@ -342,6 +344,7 @@ row-gap: 48px;
     
 }
 .port-list:hover{
+   
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), rgba(46, 47, 66, 0.08);
 }
 
