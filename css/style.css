@@ -159,10 +159,13 @@ gap: 16px;
 }
 
 .container-footer{
-    display: flex;
-    align-items: baseline;
+   margin-right: 120px; 
 
 } 
+.div-parent{
+    display: flex;
+    align-items: baseline;
+}
 .logo-par{
     margin-right: 120px;
 
