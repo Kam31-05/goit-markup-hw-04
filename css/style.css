@@ -139,9 +139,34 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
+.social-media-footer{
+    display: flex;
+}
+.par-media{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+.icons-footer{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
+}
+
 .container-footer{
+    display: flex;
+    align-items: baseline;
 
 } 
+.logo-par{
+    margin-right: 120px;
+
+}
 
 .solution-container{
     display: block;
