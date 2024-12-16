@@ -155,10 +155,9 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 16px;
 }
-.icon footer{
+.icon-footer{
     width: 40px;
     height: 40px;
-    
 }
 .media-icons{
     width: 100%;
@@ -186,7 +185,7 @@ fill: #f4f4fd;
 .div-parent{
     display: flex;
     align-items: baseline;
-    margin-right: 120px; 
+   
 
 }
 
@@ -366,7 +365,7 @@ row-gap: 48px;
 .port-list {
     background-color: #FFFFFF;
     cursor: pointer;
-    box-shadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay{
     position: relative;
